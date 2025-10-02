@@ -24,7 +24,7 @@ namespace Tyuiu.GoryaevTT.Sprint2.Task3.V3.Lib
                 ans = Math.Pow(x, 2) + 10 * x - (1 / x);
             }
             else { ans = 0; }
-            return ans;
+            return Math.Round(ans, 3);
         }
     }
 }
