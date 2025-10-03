@@ -1,7 +1,7 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.GoryaevTT.Sprint2.Task6.V10.Lib
 {
-    public class Class1 : ISprint2Task5V10
+    public class Class1 : ISprint2Task6V10
     {
         public string FindDateOfPreviousDay(int g, int m, int n)
         {
