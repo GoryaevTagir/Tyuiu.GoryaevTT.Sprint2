@@ -63,7 +63,22 @@ namespace Tyuiu.GoryaevTT.Sprint2.Task5.V12.Lib
             }
 
 
-            return $"{n}.{m}.{g}";
+            if ((m >= 1) && (m <= 9) && (n >= 1) && (n <= 9))
+            {
+                return $"0{n}.0{m}.{g}";
+            }
+            else if ((m >= 1) && (m <= 9))
+            {
+                return $"{n}.0{m}.{g}";
+            }
+            else if ((n >= 1) && (n <= 9))
+            {
+                return $"0{n}.{m}.{g}";
+            }
+            else
+            {
+                return $"{n}.{m}.{g}";
+            }
 
         }
     }
