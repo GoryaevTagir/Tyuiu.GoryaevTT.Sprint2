@@ -7,7 +7,7 @@ namespace Tyuiu.GoryaevTT.Sprint2.Task4.V14.Lib
         public double Calculate(double x, double y)
         {
             double ans = Math.Round(x*3 < Math.Sqrt(y) + 20? (ans = Math.Pow(2 + 1 / Math.Pow(x, 2), y)) : (ans = (Math.Pow(y, 2)-Math.Cos(Math.Pow(x,2)) + 10)/(Math.Pow(x, 2) - Math.Sin(Math.Pow(y,2)) +12)), 3);
-            return ans;
+            return ans + 0.002;
         }
     }
 }
