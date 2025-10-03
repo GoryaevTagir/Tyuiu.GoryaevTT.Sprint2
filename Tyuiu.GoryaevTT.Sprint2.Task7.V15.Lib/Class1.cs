@@ -10,7 +10,8 @@ namespace Tyuiu.GoryaevTT.Sprint2.Task7.V15.Lib
             {
                 ans = true;
             }
-            return ans;
+            else { ans = false; }
+                return ans;
         }
     }
 }
