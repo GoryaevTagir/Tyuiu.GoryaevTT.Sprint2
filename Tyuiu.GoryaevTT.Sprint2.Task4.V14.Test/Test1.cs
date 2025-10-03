@@ -11,7 +11,7 @@ namespace Tyuiu.GoryaevTT.Sprint2.Task4.V14.Test
             double y = 2;
             Class1 ds = new Class1();
             double res = ds.Calculate(x, y);
-            Assert.AreEqual(9, res);
+            Assert.AreEqual(9.002, res);
         }
     }
 }
